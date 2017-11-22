@@ -56,10 +56,11 @@ public class functions {
 	}
 	public static void printArraydouble(double[] arr)
 	{
-		for(int i=0;i<arr.length;i++)
+		for(int i=0;i<arr.length-1;i++)
 		{
 			System.out.print(arr[i]+",");
 		}
+		System.out.print(arr[arr.length-1]);
 	}
 	public static void swap(double[]arr,int i,int j)
 	{
