@@ -66,7 +66,7 @@ public class functions {
 				}
 				else
 				{
-					i++;
+					//i++;
 				}
 			}
 		}
