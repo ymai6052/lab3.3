@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class functions {
 	public static void main(String[]args)
 	{
@@ -18,7 +16,6 @@ public class functions {
 	}
 	public static void insertionSort(int[] list1)
 	{
-		int temp = 0;
 		for(int i=0;i<list1.length;i++)
 		{
 			for (int j = i; j > 0; j--)	
@@ -50,7 +47,6 @@ public class functions {
 	}
 	public static void bubbleSort(String [] list1)
 	{
-		String low=list1[0];
 		boolean swapped=true;
 		while(swapped)
 		{
